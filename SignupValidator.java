@@ -1,5 +1,5 @@
 public class SignupValidator{
-    public static void main(String[] args) {
-        System.out.println("Class created");
+	public SignupValidator(){
+        System.out.println("this is a constructor");
     }
 }
