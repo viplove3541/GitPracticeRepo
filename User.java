@@ -12,6 +12,16 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    
+    public User(String email, String password, String firstName) {
+        this.email = email;
+        this.password = password;
+        this.firstName = firstName;
+
+    }
+
+
+
 
     // Getters
     public String getEmail() {
@@ -73,4 +83,6 @@ public class User {
                 ", dateOfBirth='" + dateOfBirth + '\'' +
                 '}';
     }
+    
+    
 }
