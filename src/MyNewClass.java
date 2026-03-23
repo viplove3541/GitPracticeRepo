@@ -9,7 +9,9 @@ public class NewClass{
        this.Password = password;
 
 
+
    }
+
 
     public String getPassword() {
         return Password;
@@ -26,6 +28,7 @@ public class NewClass{
     public void setPassword(String password) {
         Password = password;
     }
+
     void newMethod(){
         System.out.println(" Email" + this.Email);
         System.out.println(" Password" + this.Password);
