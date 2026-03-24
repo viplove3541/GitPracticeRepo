@@ -1,5 +1,6 @@
 public class CreateNewAccount {
 
+
     // Fields (essential information for an account)
     private String username;
     private String email;
